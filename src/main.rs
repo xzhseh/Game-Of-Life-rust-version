@@ -1,6 +1,8 @@
 extern crate nannou;
 use nannou::prelude::*;
 
+pub mod grid;
+
 fn main() {
     nannou::app(model)
         .update(update)
